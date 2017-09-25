@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Ch2Ex3
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in); // New Scanner
+		System.out.println("Type in the first interger.");
+		int first = scan.nextInt();	// Reads first interger
+		System.out.println("Type in the second interger.");
+		int last = scan.nextInt(); // Reads last interger
+		
+		System.out.println("The sum of the two numbers are: " + (first+last));
+		System.out.println("The difference of the two numbers are: " + (first-last));
+		System.out.println("The product of the two numbers are: " + (first*last));
+	        
+		
+	}
+}

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Ch2Ex8
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in); // New Scanner
+
+		System.out.println("Enter a line of text and I will first make it all uppercase, the all lower case.");
+		String line = scan.nextLine();
+		String uLine = line.toUpperCase(), lLine = line.toLowerCase();
+		System.out.println( uLine + "\n" + lLine );
+		
+
+	}
+}

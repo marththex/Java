@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Ch3Ex7
+{
+	public static void main(String[] args)
+	{
+		int exit = 0;
+		double x, set1 = 0, set2 = 0, factorial;
+		Scanner scan = new Scanner(System.in);
+		while(exit != 1)
+		{
+		System.out.println("Type in an number.");
+		x = scan.nextDouble();
+		
+		for(int i = 0; i < 10; i++)
+		{
+			 factorial = 1;
+			 for(int k = i; k > 1; --k)
+			 {
+			 	 factorial *= k;
+			 }
+		 	 set1 += Math.pow(x, i)/factorial;
+		 	 System.out.println(set1);
+        }
+        for(int j = 50; j < 100; j++)
+		{
+			factorial = 1;
+			for(int l = j; l > 1; --l)
+			{
+			 	 factorial *= l;
+			}
+		 	set2 += Math.pow(x, j)/factorial;
+		 	System.out.println(set2);
+        }
+        System.out.println("The sum from 1 to 10 is: " + set1 + " and the sum from 50 to 100 is " + set2);
+		System.out.println("Press 1 to exit or any other whole number to try again.");
+		exit = scan.nextInt();
+		}
+	}	
+}

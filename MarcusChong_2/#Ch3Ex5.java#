@@ -1,0 +1,23 @@
+import java.text.DecimalFormat;
+
+public class Ch3Ex5
+{
+	public static void main(String[] args)
+	{
+		DecimalFormat df = new DecimalFormat("#.##");
+		double debt = 1000, rate = .015, payment = 50, interestPaid = 0;
+		int months = 0;
+		while(debt > 0 )
+		{
+			interestPaid = (debt*rate) + interestPaid;
+			payment = payment - (debt*rate);
+			debt = debt - payment;
+			months++;
+			payment = 50;
+			
+		}
+		int years = months/12;
+		System.out.println("The number of years it will take to pay off your debt is " + years + " years.");
+		System.out.println("The amount of interest you paid over the years is $" + df.format(interestPaid));
+	}	
+}

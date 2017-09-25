@@ -1,0 +1,22 @@
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+public class Ch2Ex4
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in); // New Scanner
+		DecimalFormat df = new DecimalFormat("$#.##");
+		System.out.println("What is the distance of the commute in miles (disreguard units)?");
+		double distance = scan.nextDouble();
+		System.out.println("What is the automobile's fuel consumption rate in miles per gallon (disreguard units)?");
+		double consumption = scan.nextDouble();
+		System.out.println("What is the price of gallon of gas?");
+		double gas = scan.nextInt();
+		
+		double price = ((distance/consumption)/gas);// Computes the total cost to commute
+		
+		System.out.println("The cost of the commute is " + df.format(price));
+		
+	}
+}

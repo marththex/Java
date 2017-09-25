@@ -1,0 +1,25 @@
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+public class Ch3Ex4
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		DecimalFormat df = new DecimalFormat("#.##");
+		double cost, inflation;
+		int years;
+		System.out.println("How must does the product cost?");
+		cost = scan.nextDouble();
+		System.out.println("How many years will this product be puchased?");
+		years = scan.nextInt();
+		System.out.println("What is the percent rate of inflation (disreguard the '%' sign)?");
+		inflation = scan.nextInt();
+		inflation = inflation*.01;
+		for(int n=0; n < years; ++n)	//calculates the cost of the item after "years" .
+		{
+			cost = cost*(inflation+1);	
+		}
+		System.out.println("The product will cost $" + df.format(cost) + " in " + years + " years.");
+	}	
+}

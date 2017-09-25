@@ -1,0 +1,23 @@
+import java.util.Scanner;
+import java.io.*
+
+public class ConsoleInput
+{
+	public void main(String[] argv)
+	{
+		/*Scanner scan = new Scanner(System.in);
+		String userInput = "";
+		System.out.println("Enter your neame");
+		userInput = s.nextLine();
+		
+		System.out.println("you entered " + userIput)
+		
+		System.out.println("Enter a number);
+		int num= s.nextInt();
+		
+		System.out.println("you entered: " num*4);*/
+		
+		BufferReader br = new Bufferedreader(new ImputStreamReader(System.in));
+		
+	}
+}

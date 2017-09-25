@@ -1,0 +1,24 @@
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+public class Ch3Ex1
+{
+	public static void main(String[] args)
+	{
+		DecimalFormat df = new DecimalFormat("#.##");
+		Scanner scan = new Scanner(System.in);
+		
+		double n, error = .01;
+		System.out.println("Input a double.");
+		n = scan.nextDouble();
+		double guess1 = n/2, guess2 = guess1;
+		do
+		{
+			guess2 = guess1;
+			double r = n / guess1;
+			guess1 = (guess1+r)/2;
+		}
+		while ( (guess2 - guess1)/guess1>.01 );
+		System.out.println(df.format(guess1));
+	}
+}

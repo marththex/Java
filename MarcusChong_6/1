@@ -1,0 +1,8 @@
+Wed Dec 02 17:40:19 PST 2015
+You have (6) options
+Press 1 to List the contents of a directory provided by the user
+Press 2 to List the contents of a directory provided by the user as well as all of its sub directories
+Press 3 to Locate a file with a given name
+Press 4 to Locate files with a given file extension
+Press 5 to Concatenate the contents of 2 files whose names are provided by the user and output the result to a third file
+Press 6 to Exit

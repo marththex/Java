@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class Ch3Ex3
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		int input = 1, gender = 0, momFeet, momInches, dadFeet, dadInches, totalMomHeight, totalDadHeight, height = 0, feet, inches;
+		while(input == 1) // 1 is the exit value
+		{
+			do
+			{
+				System.out.println("Input a gender. Press 1 if you are male press 2 if you are female"); // 1 is male. 2 is female.
+				gender = scan.nextInt();
+				if(gender != 1 && gender != 2)
+				{
+					System.out.println("Error, please type in a valid number.");
+				}
+			}
+			while(gender != 1 && gender != 2);
+			
+			System.out.println("What is the height of your mom? Type in the feet, followed by inches (Round to the nearest whole number).");
+			System.out.print("Feet: ");
+			momFeet = scan.nextInt();
+			System.out.print("Inches: ");
+			momInches = scan.nextInt();
+			totalMomHeight = momInches + (12*momFeet);
+			
+			System.out.println("What is the height of your dad? Type in the feet, followed by inches (Round to the nearest whole number).");
+			System.out.print("Feet: ");
+			dadFeet = scan.nextInt();
+			System.out.print("Inches: ");
+			dadInches = scan.nextInt();
+			totalDadHeight = dadInches + (12*dadFeet);
+			
+			
+			if(gender == 1)
+			{
+				height = ((totalMomHeight*13/12)+totalDadHeight)/2;
+			}
+			else 
+			{
+				height = ((totalDadHeight*12/13)+totalMomHeight)/2;
+			}
+			
+			feet = height/12;
+			inches = height%12;
+			System.out.println("Your estimated adult height is: " + feet + " feet and " + inches + " inches.");
+			System.out.println("Wanna try again? Type '1' for yes or any other whole number for no.");
+			input = scan.nextInt();
+			
+		}
+		System.out.println("Goodbye.");
+	}
+}

@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Ch3Ex6
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		int i = 0, days, populationBefore, populationAfter, temp;
+		while(i != 1) // exit condition
+		{
+			System.out.println("What is the inital green crud population?");
+			populationBefore = scan.nextInt();
+			System.out.println("How many days will the population grow?");
+			days = scan.nextInt();
+			int changes = days/5;
+			populationAfter = populationBefore;
+			if(changes != 0)
+			{
+				for(int n = 0; n < changes-1; ++n)
+				{
+					temp = populationAfter;
+					populationAfter = populationBefore + populationAfter;
+					populationBefore = temp;
+				}
+			}
+			System.out.println("The population after " + days + " days will be " + populationAfter + ".");
+			System.out.println("Press 1 to exit or any other whole number to try again.");
+			i = scan.nextInt();
+		}
+		System.out.println("Goodbye.");
+	}	
+}

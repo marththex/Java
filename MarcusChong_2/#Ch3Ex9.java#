@@ -1,0 +1,26 @@
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+public class Ch3Ex9
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		DecimalFormat df = new DecimalFormat("#.##");
+		int ex, score, possible; 
+		int scoreTotal = 0, possibleTotal = 0; 
+		System.out.println("How many exercises to input?");
+		ex = scan.nextInt();
+		for(int i = 0; i < ex; ++i)	//iterate through a loop until the # of exercise inputed
+		{
+			System.out.println("Scored recieved for exercise " + (i+1));
+			score = scan.nextInt();
+			System.out.println("Total points possible for exercise " + (i+1));
+			possible = scan.nextInt();
+			scoreTotal = scoreTotal + score;
+			possibleTotal = possibleTotal + possible;
+		}
+		double percent = (1.00*scoreTotal/possibleTotal)*100; //multiplied by 1.00 so that the cpu does the math as a double
+		System.out.println("Your total is " + scoreTotal + " out of " + possibleTotal + ", or " + df.format(percent) + "%");
+	}	
+}

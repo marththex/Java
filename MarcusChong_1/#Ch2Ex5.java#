@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Ch2Ex5
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in); // New Scanner
+		System.out.println("Enter the purchase price (disreguard units).");
+		double p = scan.nextDouble(); // p is the purchase price
+		System.out.println("Enter the salvage value (disreguard units).");
+		double s = scan.nextDouble();// s is the salvage value
+		System.out.println("Enter the number of years the item is used (disreguard units).");
+		double y = scan.nextInt(); // y is the years the item is used 
+		
+		double d = ((p-s)/y);// Computes the the yearly depreciation
+		
+		System.out.println("The yearly depreciation is " + d + " year(s).");
+		
+	}
+}

@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Ch3Ex8
+{
+		public static void main(String[] args)
+	{
+	
+		System.out.println("TOO + TOO + TOO + TOO = GOOD");
+		System.out.println("is equal to");
+
+		int t, o, g, d;
+
+		for(t = 0; t < 10; ++t) //checks all possibilities of T,O,G, and D
+		{
+			for(o = 0; o < 10; ++o) 
+			{
+				for(g = 0; g < 10; ++g) 
+				{
+					for(d = 0; d < 10; ++d) 
+					{
+						if ( ((((t * 100) + (o * 10) + (o)) * 4) == ((g * 1000) + (o * 100) + (o * 10) +(d))) && ((t != o) && (t != g) && (t != d) && (o != g) && (o != d) && (g != d)) )
+						{
+							System.out.println("T = " + t + ", O = " + o + ", G = " + g + ", D = " + d);
+							System.exit(0);
+						}
+					}
+
+					d = 0; 
+				}
+
+				g = 0;
+			}
+
+			o = 0; 
+		}
+
+		
+	}
+}

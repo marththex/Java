@@ -1,0 +1,99 @@
+Wed Dec 02 23:17:37 PST 2015
+______________________________________________________
+You have (6) options
+Press 1 to List the contents of a directory provided by the user
+Press 2 to List the contents of a directory provided by the user as well as all of its sub directories
+Press 3 to Locate a file with a given name
+Press 4 to Locate files with a given file extension
+Press 5 to Concatenate the contents of 2 files whose names are provided by the user and output the result to a third file
+Press 6 to Exit
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/migrate48.png
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/whatsnew48.png
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/root_banner.jpg
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/webresources48_hov.png
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/firststeps48.gif
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/workbench48_hov.gif
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/whatsnew48.gif
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/workbench48.png
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/tutorials48.png
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/overview48.png
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/migrate48_hov.png
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/overview48_hov.gif
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/overview48.gif
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/migrate48.gif
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/migrate48_hov.gif
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/background.jpg
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/root_banner_logo.jpg
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/whatsnew48_hov.gif
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/samples48_hov.png
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/whatsnew48_hov.png
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/firststeps48_hov.png
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/samples48_hov.gif
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/overview48_hov.png
+Wed Dec 02 23:50:51 PST 2015
+______________________________________________________
+/home/cpsc/Android/Sdk/tools/lib/monitor-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524/themes/slate/graphics/rootpage/tutorials48.gif
+Wed Dec 02 23:54:01 PST 2015
+______________________________________________________
+You have (6) options
+Press 1 to List the contents of a directory provided by the user
+Press 2 to List the contents of a directory provided by the user as well as all of its sub directories
+Press 3 to Locate a file with a given name
+Press 4 to Locate files with a given file extension
+Press 5 to Concatenate the contents of 2 files whose names are provided by the user and output the result to a third file
+Press 6 to Exit
+Wed Dec 02 23:55:30 PST 2015
+______________________________________________________
+You have (6) options
+Press 1 to List the contents of a directory provided by the user
+Press 2 to List the contents of a directory provided by the user as well as all of its sub directories
+Press 3 to Locate a file with a given name
+Press 4 to Locate files with a given file extension
+Press 5 to Concatenate the contents of 2 files whose names are provided by the user and output the result to a third file
+Press 6 to Exit

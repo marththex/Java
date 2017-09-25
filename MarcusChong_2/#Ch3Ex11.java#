@@ -1,0 +1,33 @@
+public class Ch3Ex11 
+{
+
+public static void main(String[] args) 
+{
+
+	int finalist1 = 0, finalist2 = 0, finalist3 = 0;
+	int randNumber = 0;
+	randNumber = (int)(Math.random()*10)+1;
+	finalist1 = randNumber;
+	randNumber = (int)(Math.random()*10)+1;
+	
+	while (randNumber == finalist1) 
+	{
+		randNumber = (int)(Math.random()*10)+1;
+	}
+	
+	finalist2 = randNumber;
+	randNumber = (int)(Math.random()*10)+1;
+	
+	while ((randNumber == finalist1)||(randNumber == finalist2)) 
+	{
+		randNumber = (int)(Math.random()*10)+1;
+	}
+	
+	finalist3 = randNumber;
+	System.out.println(“The winners are:”);
+	System.out.println(“finalist ” + finalist1);
+	System.out.println(“finalist ” + finalist2);
+	System.out.println(“finalist ” + finalist3);
+	}
+
+}

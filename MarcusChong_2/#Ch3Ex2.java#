@@ -1,0 +1,60 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class Ch3Ex2
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		Random roll = new Random();
+		int dice1, dice2, total, total2 = 0, point, count = 1, myWins = 0, myLosses = 0, lost=0, won=0, done = 0;
+		while( count < 10000 )
+		{
+			dice1 = roll.nextInt(6) + 1;
+			dice2 = roll.nextInt(6) + 1;	
+			total = dice1 + dice2;
+			if( total == 7 || total == 11)
+			{
+				myWins++;
+			}
+			
+			else if( total == 2 || total == 3 || total == 12)
+			{
+				myLosses++;
+			}
+			else
+			{
+				point = total;
+				
+				do
+				{
+					dice1 = roll.nextInt(6) + 1;
+					dice2 = roll.nextInt(6) + 1;	
+					total = dice1 + dice2;
+					if(total == 7)
+					{
+						myLosses++;
+						
+					}
+					else if(total == point)
+					{
+						myWins++;
+						total = 7;
+					}	
+						
+				}
+				while(total != 7);
+			
+			}
+			count++;	
+		}
+		
+		System.out.println("# of games: " + count + " My Wins: " + myWins + " My Losses: " + myLosses);
+		double percent = (myWins*1.00)/((myWins+myLosses)*1.00)*100;
+		System.out.println("# of Wins: " + myWins);
+		System.out.println("# of Losses: " + myLosses);
+		System.out.println("Your probability of winnning is: " + percent + "%.");
+		
+		
+	}
+}

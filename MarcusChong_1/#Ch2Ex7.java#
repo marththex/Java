@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Ch2Ex7
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in); // New Scanner
+
+		System.out.println("Enter price of item. (from 25 cents to a dollar, in 5-cent increments)");
+		int cost = scan.nextInt();
+		int change = 100 - cost; //compute the change
+		int quarters = change/25;
+		int dimes = (change%25)/10;
+		int nickles = ((change%25)%10)/5;
+		
+		System.out.println("You bought an item for " + cost + " cents and gave me a dollar, \nso your change is ");
+		System.out.println(quarters + " quarter(s),\n" + dimes + " dime(s), and\n"+ nickles + " nickle(s)");
+		
+
+	}
+}

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public Driver
+{
+	public static void main(String[] args)
+	{
+		Logger log = new Logger(true);
+		log.logIt();
+		log.setLogEnable(true);
+		//log.WriteLine()
+		
+	}
+}

@@ -1,0 +1,11 @@
+public class Ch1Ex4
+{
+	public static void main(String[] args)
+	{
+		double numOfSweetToKillAMouse = .001, gramsMouse = 25, gramsPersonDesire = 50000, gramsPersonInital = 250, percentSweetInSoda = .001;
+		double maxMouseCanDrink = numOfSweetToKillAMouse/percentSweetInSoda;
+		double maxPersonCanDrink = maxMouseCanDrink*gramsclearPersonDesire/gramsMouse;
+		
+		System.out.println("The dieter can drink " + maxPersonCanDrink + " liters without dying.");
+	}
+}
